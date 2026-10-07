@@ -11,7 +11,7 @@ interface News{
 }
 
 const MainNews = ({ news }: {news: News[]}) => {
-    console.log("main news", news);
+    // console.log("main news", news);
     const [firstNews, ...otherNews] = news
     // console.log("firstNews", firstNews);
     // console.log("other News", otherNews);
