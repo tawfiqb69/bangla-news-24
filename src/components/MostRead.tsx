@@ -7,7 +7,7 @@ export default async function MostRead() {
     const res = await fetch('https://news-api-v2.vercel.app/api/news/most-read')
     const data = await res.json()
     const mostReadNews:MostReadNews[] = data.data
-    console.log("mostReadNews", mostReadNews);
+    // console.log("mostReadNews", mostReadNews);
     
     return (
         <div className="card py-3 px-4 bg-base-100 border border-gray-300">
